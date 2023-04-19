@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class VRLabScaling : MonoBehaviour
 {
-    public Transform tr;
+    public GameObject BuildingIKN;
+    [SerializeField] private Vector3 _scaleChange;
 
     // Start is called before the first frame update
     void Start()
     {
-        tr = GetComponent<Transform>();
+
     }
 
     // Update is called once per frame
@@ -19,9 +20,8 @@ public class VRLabScaling : MonoBehaviour
     }
 
     // move camera position / scaling the map
-    public void MovePosition()
+    public void ObjectScale()
     {
-        tr.scale += 1f;
-
+        BuildingIKN.transform.localScale += _scaleChange;
     }
 }
