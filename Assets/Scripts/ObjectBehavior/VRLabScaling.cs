@@ -7,18 +7,6 @@ public class VRLabScaling : MonoBehaviour
     public GameObject BuildingIKN;
     [SerializeField] private Vector3 _scaleChange;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     // move camera position / scaling the map
     public void ObjectScale()
     {
