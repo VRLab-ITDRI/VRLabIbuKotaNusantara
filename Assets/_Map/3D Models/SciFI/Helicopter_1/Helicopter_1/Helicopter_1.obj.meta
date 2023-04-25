@@ -3,7 +3,12 @@ guid: 5cdf2a64710a7544980d605062eaf2e3
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Helicopter_1_
+    second: {fileID: 2100000, guid: 01e35fe5100f6cc47a4c6d7f9dc9e3e6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
