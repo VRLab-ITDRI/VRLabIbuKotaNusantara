@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.2515408, g: 0.2357323, b: 0.20633532, a: 1}
+  m_IndirectSpecularColor: {r: 0.255473, g: 0.23551346, b: 0.20237531, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -211,10 +211,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1633352467}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
+      - m_Target: {fileID: 19205167}
+        m_TargetAssemblyTypeName: VRLabScaling, Assembly-CSharp
+        m_MethodName: ObjectScale
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -9305,7 +9305,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1263204998}
-  m_RootOrder: 11
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 30.087, z: 0}
 --- !u!65 &648703594
 BoxCollider:
@@ -9788,7 +9788,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1437794592}
+      - m_Target: {fileID: 661384003}
         m_TargetAssemblyTypeName: VRLabScaling, Assembly-CSharp
         m_MethodName: ObjectScale
         m_Mode: 1
@@ -19269,13 +19269,13 @@ Transform:
   - {fileID: 1640028443}
   - {fileID: 810257947}
   - {fileID: 1265317084}
+  - {fileID: 648703593}
   - {fileID: 126941075}
   - {fileID: 1291807230}
   - {fileID: 519220243}
   - {fileID: 426585821}
   - {fileID: 94053428}
   - {fileID: 929818970}
-  - {fileID: 648703593}
   - {fileID: 1393810070}
   - {fileID: 285781114}
   - {fileID: 684521475}
@@ -23774,7 +23774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BuildingIKN: {fileID: 1633352465}
-  _scaleChange: {x: 0.01237946, y: 0.01237946, z: 0.01856919}
+  _scaleChange: {x: 0.01237946, y: 0.01237946, z: 0.01237946}
 --- !u!1 &1633352465
 GameObject:
   m_ObjectHideFlags: 0
