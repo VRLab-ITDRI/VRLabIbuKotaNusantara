@@ -10,6 +10,6 @@ public class VRLabScaling : MonoBehaviour
     // move camera position / scaling the map
     public void ObjectScale()
     {
-        BuildingIKN.transform.localScale += _scaleChange;
+        BuildingIKN.transform.localScale = _scaleChange;
     }
 }
