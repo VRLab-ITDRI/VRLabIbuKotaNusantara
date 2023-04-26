@@ -234,6 +234,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/Prefabs/UI Sample.prefab
     - target: {fileID: 781630661673262136, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
       propertyPath: m_Material
@@ -241,6 +242,13 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     - target: {fileID: 781630661673262138, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
+=======
+    - target: {fileID: 781630661673262136, guid: c24a7635b5761984d81cf6c4aac26e0d, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+    - target: {fileID: 781630661673262138, guid: c24a7635b5761984d81cf6c4aac26e0d, type: 3}
+>>>>>>> Stashed changes:Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI Sample.prefab
       propertyPath: m_Name
       value: ModalSingleButton
       objectReference: {fileID: 0}
