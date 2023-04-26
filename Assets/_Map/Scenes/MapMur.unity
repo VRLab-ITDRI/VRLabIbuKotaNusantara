@@ -211,10 +211,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1633352467}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
+      - m_Target: {fileID: 19205167}
+        m_TargetAssemblyTypeName: VRLabScaling, Assembly-CSharp
+        m_MethodName: ObjectScale
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -23678,7 +23678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BuildingIKN: {fileID: 1633352465}
-  _scaleChange: {x: 0.01237946, y: 0.01237946, z: 0.01856919}
+  _scaleChange: {x: 0.01237946, y: 0.01237946, z: 0.01237946}
 --- !u!1 &1633352465
 GameObject:
   m_ObjectHideFlags: 0
